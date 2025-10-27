@@ -1,0 +1,18 @@
+# Wordlists e arquivos grandes
+*.gz
+rockyou.txt
+
+# Evidências
+hashes/
+screenshots/
+*.log
+*.txt
+
+# Arquivos de ambiente
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Chaves privadas
+*.pem
+id_rsa*
