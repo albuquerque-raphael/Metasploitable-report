@@ -1,7 +1,7 @@
 # Documentação Técnica — Nmap, Medusa e John The Ripper
 **Curso / Disciplina:** Santander Cyber Segurança DIO 2025 — Ethical Hacking (ambiente laboratorial).  
 **Autor:** Raphael Cordeiro Cavalcanti de Albuquerque  
-**Data:** 24 de outubro de 2015  
+**Data:** 24 de outubro de 2025  
 **Alvo:** VM Metasploitable2 — IP: `192.168.56.102`  
 **Rede:** Host Only  
 **Teste autorizado por:** Instrutora Isadora Ferrão

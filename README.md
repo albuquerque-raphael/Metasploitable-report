@@ -5,7 +5,7 @@ README.md
 
 **Autor:** Raphael Cordeiro Cavalcanti de Albuquerque  
 **Curso:** Santander Cyber Segurança DIO 2025 — Ethical Hacking  
-**Data:** 24/10/2015  
+**Data:** 24/10/2025  
 **Instrutora:** Isadora Ferrão  
 **Ambiente:** Kali Linux 2025.3 (atacante) | Metasploitable2 (alvo)  
 **Rede:** Host Only  
