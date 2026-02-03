@@ -1,42 +1,48 @@
-README.md
+# Lab Report: Network Mapping & Credential Auditing 🛡️
+ 
+![Cybersecurity](https://img.shields.io/badge/Area-Offensive_Security-red)
+![Tools](https://img.shields.io/badge/Tools-Nmap%20%7C%20Medusa%20%7C%20JohnTheRipper-blue)
+![Environment](https://img.shields.io/badge/Lab-Metasploitable2-orange)
 
-```markdown
-# Relatório Lab — Nmap, Medusa e John The Ripper
+## 📝 Descrição do Projeto
+Este repositório documenta um teste de intrusão ético (Pentest) realizado em ambiente controlado. O foco principal foi simular o ciclo de vida de um ataque, desde o reconhecimento de ativos até a exploração de vulnerabilidades em serviços de rede.
 
-**Autor:** Raphael Cordeiro Cavalcanti de Albuquerque  
-**Curso:** Santander Cyber Segurança DIO 2025 — Ethical Hacking  
-**Data:** 24/10/2025  
-**Instrutora:** Isadora Ferrão  
-**Ambiente:** Kali Linux 2025.3 (atacante) | Metasploitable2 (alvo)  
-**Rede:** Host Only  
-
----
-
-## Descrição
-Este repositório contém o relatório técnico e as evidências do teste de intrusão ético realizado em ambiente laboratorial controlado, com foco em:
-- Mapeamento de rede (`nmap`)
-- Ataque de força-bruta controlado (`medusa`)
-- Quebra de hashes (`John The Ripper 1.9.0 Jumbo`)
-
-O relatório documenta passo a passo o processo, resultados e recomendações de mitigação.
+O projeto faz parte da minha formação no **Santander Cyber Segurança DIO 2025**, sob orientação da instrutora Isadora Ferrão.
 
 ---
 
-## Estrutura
-DOCUMENTATION.md → relatório técnico completo
-README.md → resumo e contexto
-.gitignore → exclusões de logs, wordlists e evidências sensíveis
-nmap_results/ → varreduras Nmap
-medusa_results/ → resultados do Medusa
-hashes/ → hashes e saídas do John (privado ou sanitizado)
-screenshots/ → imagens do teste (recomendado: privado)
-
-yaml
-Copiar código
+## 🛠️ Tecnologias e Ferramentas Utilizadas
+* **SO Atacante:** Kali Linux 2025.3
+* **SO Alvo:** Metasploitable2 (Host Only Network)
+* **Reconhecimento:** `Nmap` (Service Enumeration & OS Detection)
+* **Brute Force:** `Medusa` (Remote Authentication Auditing)
+* **Cryptography:** `John The Ripper 1.9.0 Jumbo` (Hash Cracking)
 
 ---
 
-## Aviso Legal
-> Este projeto tem fins **estritamente educacionais**.  
-> Todos os testes foram realizados em ambiente controlado e autorizado.  
-> O uso não autorizado desses procedimentos em sistemas de terceiros é ilegal.
+## 🚀 Fases do Laboratório
+
+### 1. Reconhecimento (Footprinting)
+Utilização do **Nmap** para identificar portas abertas e versões de serviços vulneráveis, permitindo o mapeamento da superfície de ataque do alvo.
+
+### 2. Auditoria de Credenciais
+Simulação de ataque de força-bruta via **Medusa** para validar políticas de senhas fracas em serviços ativos.
+
+### 3. Quebra de Hashes (Cracking)
+Uso do **John The Ripper** para processar e quebrar hashes extraídos, demonstrando o risco de armazenamento inseguro de credenciais.
+
+---
+
+## 📂 Estrutura do Repositório
+* `DOCUMENTATION.md`: Relatório técnico detalhado com evidências e recomendações.
+* `nmap_results/`: Logs e saídas das varreduras de rede.
+* `medusa_results/`: Resultados da auditoria de autenticação.
+* `hashes/`: Arquivos sanitizados para demonstração de quebra de hash.
+
+---
+
+## ⚖️ Aviso Legal (Disclaimer)
+Este projeto tem fins **estritamente educacionais**. Todos os testes foram realizados em ambiente laboratorial isolado e autorizado. O uso destas técnicas sem autorização expressa é ilegal e antiético.
+
+---
+**Contato:** [Seu Nome] - [Seu LinkedIn](SEU_LINK_AQUI)
