@@ -45,4 +45,4 @@ Uso do **John The Ripper** para processar e quebrar hashes extraídos, demonstra
 Este projeto tem fins **estritamente educacionais**. Todos os testes foram realizados em ambiente laboratorial isolado e autorizado. O uso destas técnicas sem autorização expressa é ilegal e antiético.
 
 ---
-**Contato:** [Seu Nome] - [Seu LinkedIn](SEU_LINK_AQUI)
+**Contato:** Raphael Albuquerque - https://www.linkedin.com/in/raphael-albuquerque-0b4251348/
